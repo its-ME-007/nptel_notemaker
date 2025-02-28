@@ -1,0 +1,158 @@
+Welcome to the lecture 2 in the R model of
+    the course Data science for Engineers in the
+previous lecture we have given a brief introduction
+    about R and R studio and we have seen how
+to create an R file write some codes in R
+    file and how to execute an R file.
+In this lecture we are going to show how to
+    add comments to the R file, how to clear the
+environment and how to save the workspace
+    of R now let us first look at how to add comments
+to the R file.
+    Before that let us ask this question why do
+you add comments to your codes? Adding comments
+    improve the readability of your code for example,
+you can explain the purpose of the code you
+    are writing in the comments or you can explain
+what an algorithm is doing to accomplish the
+    purpose which you are attempting at. Writing
+comments also help us to generate documentation
+    which is external to the source code itself
+by documentation generators.
+    Let us look how to add comments to a single
+line in R script first you can comment a single
+    line R by using hash key at the start of the
+comment if you see in this example I have
+    commented this first comment by a hash key
+which turns this command green and if you
+    notice these commands are describing what
+this program is doing, what it is doing is
+    it is taking a single number and then calculating
+a value which is 10 times of it.
+    So, you can see here I am defining a variable
+a is equal to 10 which I am commenting it
+    out as the input number and now I am explaining
+this operation which is being happened here
+    which is b is calculated as 10 times a and
+if you would have remembered in the previous
+    lecture we have used this symbol for assigning
+a value to a variable you can also use equal
+    to in R studio that is been demonstrated here.
+Now you can see how commenting makes your
+    script file more readable.
+Comments can also be used to make certain
+    lines of code in at you can do that by inserting
+a hash key at the beginning of the line like
+    here you can see I want to comment this ah
+line which says a is equal to 14 if I wish
+    to do so, I can comment it by keeping a hash
+key in front of it. Now we will see how to
+    add comments to multiple lines at once in
+R.
+    There are 2 ways first we used to select the
+multiple lines which you want to comment using
+    the cursor and then use the key combination
+control plus shift plus C to comment or uncomment
+    the selected lines.
+the other way is to use the GUI, select the
+    lines which you want to comment by using cursor
+and in the code menu if you click on the code
+    menu a pop up window pops out in which we
+need to select comment or uncomment lines
+    which appropriately comments or uncomment
+the lines which you have selected. In some
+    cases when you run the codes using source
+and source with echo your console will become
+    messy.
+And it is needed to clear the console let
+    us now look at how to clear the console. The
+console can be cleared using the shortcut
+    key control plus L, let us look at an example,
+in this code I have defined a and calculated
+    b and printed a comma b, when I execute this
+code using source with echo all the commands
+    will get printed here. Now, let us say suppose
+I want to clear this console what I have to
+    do is I have to click here and I have to enter
+the key combination control plus L . Once
+    I do this you can see that the console will
+get cleared remember clearing console will
+    not delete the variables that are there in
+the workspace you can see that even though
+    we have cleared the console in the workspace
+we still have the variables that are created
+    earlier.
+Now, let us see how to clear the variables
+    from the R environment you can clear the variables
+on the R environment using rm command, when
+    you want to clear a single variable from the
+R environment you can use the rm function
+    has shown here rm followed by the variable
+you want to remove. If you want to delete
+    all the variables that are there in the environment
+what you can do is you can use the rm with
+    an argument list is equal to ls followed by
+parenthesis or you can clear all the variables
+    in the environment using the GUI in the environment
+history pane you see this brush button, when
+    you press the brush button it will pop up.
+A windows saying we want to clear all the
+    objects that are available in environment
+if you say yes it will clear all the variables.
+    Which is shown there and you can see the environment
+is empty now. Now, let us see how to save.
+    The data from the workspace in R I have already
+mentioned that the information that is saved
+    in the environment of R is temporary and it
+is not retain when you close the R session
+    or restart the R Studio it is sometimes needed
+to save the data which is already there in
+    the current session.
+The reason being you would have done certain
+    operations to get the data to this form and
+you do not want to repeat those actions and
+    you need to start from the point where you
+want to leave now, in that cases you need
+    to save the data from the R environment when
+you want to do that.
+    There are 2 ways the first one is the automatic
+option when you close the R Studio application
+    it will ask you look do you want to save the
+workspace image if you say yes it will save
+    all the variables that are there in the workspace,
+if you say do not save the R Studio will exit
+    and the workspace information not be saved.
+You can also save the workspace information
+    using manual method where you can save the
+information to a file using the save command
+    and the saved information can be reloaded
+for the future sessions using the load command
+    let us see how to do that in R. Here is an
+example code the first line here shows how
+    to save a variable that is there in the workspace
+into a file name sess1 dot R data.
+    . So, in the comments you can see that this
+is the command which you can use to save a
+    single variable a, if you are willing to say
+the full workspace you need to use this command
+    save list is equal to ls with argument all
+dot names is equal to true and you can give
+    the filename whatever you wish to and the
+shortcut key for this command which is given
+    here is save dot image which saves the data
+in the environment into dot R data file in
+    the current working directory. Once you do
+that you can load the workspace information
+    at later point of time whenever you want using
+this command load you can specify the file
+    is equal to the file name which you save the
+data into.
+    So, in this lecture we have seen how to add
+comments to R file, how to clear the console
+    and how to clear the R objects that are there
+in the environment and also we have seen how
+    to save the variables that are available in
+the R environment for further use. In the
+    next lecture we are going to introduce you
+to the basic data types of R.
+    Thank you .

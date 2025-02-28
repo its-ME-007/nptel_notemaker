@@ -1,0 +1,159 @@
+Welcome to the lecture 7 in the R module of
+    the course Data Science for Engineers.
+In this lecture we are going to introduce
+    you to the functions in R. We are going to
+explain how to load or source the functions
+    and how to call or invoke the functions.
+Functions are useful when you want to perform
+    certain tasks many number of times.
+A function accepts input arguments and produces
+    the output by executing valid R commands that
+are inside the function.
+In R when you are creating a function the
+    function name and the file in which you are
+creating the function need not be same and
+    you can have one or more function definitions
+in a single R file.
+Functions are created in R by using the command
+    function.
+The general structure of the function file
+    is as follows f is equal to function of arguments
+and then you have statements that are needed
+    to be executed.
+This f is the function name when you write
+    this command this means that you are creating
+a function with name f which takes certain
+    arguments and executes the following statements.
+Let us see how to create a function file.
+Creating a function file is similar to opening
+    an R script which we have already seen.
+You can either use file button in the toolbar
+    or you can use the plus button just below
+the file tab to create an R script, once you
+    create an R script you can save it with whatever
+name you want.
+For example, we have saved the R file as vol
+    cylinder.
+Now, once you save you are ready to write
+    functions, now I want to create a function
+which calculates the volume of a cylinder
+    which takes in the arguments the diameter
+and length.
+So, to create a function by name volume cylinder
+    I have to have the function named as volume
+cylinder function and the arguments that are
+    needed to be passed are the diameter of the
+cylinder and the length of the cylinder.
+If you notice here we are passing this values
+    of 5 and 100 as a default arguments for this
+function.
+Once you have diameter and length you can
+    calculate the volume by the formula pi d square
+l by 4 then what you need to return is the
+    volume variable that is calculated inside
+the function.
+Once you have written the R statements that
+    are needed to be executed in a function file,
+you can save that file.
+So, we are saving it as vol cylinder dot R.
+    Once you save this.
+So, you need to load the functions before
+    you invoke or execute them in R. To load a
+function you need to click on the source button
+    that is available in the R script menu.
+Clicking the source button will not execute
+    the function, it will only load the function
+file and make it ready for invoking.
+Once you load the function, you can invoke
+    the function from the console as follows you
+want the volume to be saved in the variable
+    v and then you are calling this function vol
+cylinder with the arguments 5 and 10.
+So, this will run the function to calculate
+    the volume and returns the volume.
+In the variable browser you can also see value
+    of volume and you can also see that the function
+volume cylinder is available with two arguments
+    dia and length.
+Now, there are several ways you can pass the
+    arguments to the function.
+Generally in R the arguments are passed to
+    the function in the same order as in the function
+definition.
+If you do not want to follow any order what
+    you can do is you can pass the arguments using
+the names of the arguments in any order.
+If the arguments are not passed the default
+    values are used to execute the function.
+Now, let us see the examples for each of these
+    cases when you pass the arguments 5 and 10
+the first argument is diameter and second
+    argument is length according to the definition
+of the function.
+So, it will take in the same way, but when
+    you want not to follow any order you can pass
+the arguments by the names in any order.
+So, for example, I want to pass length as
+    a first argument you you can specify length
+is equal to 10 and diameter is equal to 5
+    and you can still see the result is same even
+though you pass the arguments in the different
+    order.
+So, point to keep in mind is you can pass
+    the arguments in any order by specifying its
+name.
+When you do not pass any arguments here it
+    takes the default values of 5 and 100 which
+are default diameter and length and then calculates
+    the volume.
+In R the functions are executed in a lazy
+    fashion, when we say lazy what it mean is
+if some arguments are missing the function
+    is still executed as long as the execution
+does not involve those arguments.
+We will see an example for this.
+We have the same function we have defined
+    now an extra argument radius in the function
+and the volume calculation does not involve
+    this argument radius in this calculation.
+Now, when you pass this arguments dia and
+    length even though you are not passing this
+radius the function will still execute because
+    this radius is not used in the calculations
+inside the function.
+But R is clever enough, if you do not pass
+    the argument and then use it in the definition
+of the function it will throw an error saying
+    that this rad is not passed and it is being
+used in the function definition.
+In summary these are the steps in creating
+    a function file in R and executing.
+First we need to open or create a function
+    file by clicking a that the plus symbol or
+file tab in the toolbar you have to define
+    the function in this fashion function name,
+keyword function and the input arguments.
+All the statements that are typed inside the
+    function has to be valid R statements to be
+executed, and you need to save the function
+    file before executing you need to load the
+function file by using the source button once
+    you load the function file you can invoke
+or call the function file with the right number
+    of inputs so that you will execute the function
+properly and you will get the required result.
+A final word we need to load the function
+    file every time you change something inside
+the function definition either you restart
+    R studio or make changes in the function file.
+If you do not do that either you get an error
+    or you will not get correct outputs which
+you are expecting, because you would have
+    changed something in the function definition
+and not saved the original version.
+Once you save the original version also you
+    have to invoke the function before you use.
+In the next lecture we are going to explain
+    the functions which are having multiple inputs
+and multiple outputs.
+Thank you .
