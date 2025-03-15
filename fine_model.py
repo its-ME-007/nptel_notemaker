@@ -1,7 +1,7 @@
 import os
 import time
 import google.generativeai as genai
-GEMINI_API_KEY = 'AIzaSyBQRghG2hxhy65l_LpnOp2SP78AYXUQBlo' #replace with your api key
+GEMINI_API_KEY = 'api_key' #replace with your api key
 
 genai.configure(api_key=GEMINI_API_KEY)
 
